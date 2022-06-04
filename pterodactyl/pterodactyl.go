@@ -81,7 +81,7 @@ func AddServers(cfg *config.Config) bool {
 		}
 
 		// Look for object item before anything.
-		if dataobj.(map[string]interface{})["object"] == nil {
+		if dataobj.(map[string]interface{})["data"].([]interface{})[0].(map[string]interface{})["object"] == nil {
 			fmt.Println("[ERR] 'object' item not found when listing all servers.")
 
 			return false
