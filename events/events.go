@@ -1,8 +1,8 @@
 package events
 
 import (
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/config"
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/misc"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/config"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/misc"
 )
 
 func OnServerDown(cfg *config.Config, srv *config.Server, fails int, restarts int) {
