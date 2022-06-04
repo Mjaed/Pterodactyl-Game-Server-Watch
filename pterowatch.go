@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/config"
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/pterodactyl"
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/servers"
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/update"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/config"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/pterodactyl"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/servers"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/update"
 )
 
 func main() {
