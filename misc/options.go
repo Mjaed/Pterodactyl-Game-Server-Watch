@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/config"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/config"
 )
 
 func HandleMisc(cfg *config.Config, srv *config.Server, fails int, restarts int) {
