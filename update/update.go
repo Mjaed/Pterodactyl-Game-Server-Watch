@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/config"
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/pterodactyl"
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/servers"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/config"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/pterodactyl"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/servers"
 )
 
 type Tuple struct {
