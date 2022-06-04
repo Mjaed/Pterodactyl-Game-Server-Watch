@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/config"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/config"
 )
 
 type Tuple struct {
