@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gamemann/Pterodactyl-Game-Server-Watch/config"
+	"github.com/Mjaed/Pterodactyl-Game-Server-Watch/config"
 )
 
 // The A2S_INFO request.
