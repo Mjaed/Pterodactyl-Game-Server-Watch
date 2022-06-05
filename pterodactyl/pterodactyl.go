@@ -251,7 +251,7 @@ func CheckStatus(cfg *config.Config, uid string) bool {
 	req, _ := http.NewRequest("GET", urlstr, nil)
 
 	// Set authorization header.
-	req.Header.Set("Authorization", "Bearer "+cfg.Token)
+	req.Header.Set("Authorization", "Bearer "+cfg.ClientToken)
 
 	// Set data to JSON.
 	req.Header.Set("Content-Type", "application/json")
