@@ -34,7 +34,7 @@ type Misc struct {
 type Config struct {
 	APIURL         string   `json:"apiurl"`
 	Token          string   `json:"token"`
-	ClientToken       string   `json:"clienttoken"`
+	AppToken       string   `json:"apptoken"`
 	AddServers     bool     `json:"addservers"`
 	DebugLevel     int      `json:"debug"`
 	ReloadTime     int      `json:"reloadtime"`
